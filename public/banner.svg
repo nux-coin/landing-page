@@ -1,0 +1,113 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="#0a0a18"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="125" x2="1500" y2="125" stroke="#1a1a3a" stroke-width="0.8"/>
+  <line x1="0" y1="250" x2="1500" y2="250" stroke="#1a1a3a" stroke-width="0.8"/>
+  <line x1="0" y1="375" x2="1500" y2="375" stroke="#1a1a3a" stroke-width="0.8"/>
+  <line x1="375" y1="0" x2="375" y2="500" stroke="#1a1a3a" stroke-width="0.8"/>
+  <line x1="750" y1="0" x2="750" y2="500" stroke="#1a1a3a" stroke-width="0.8"/>
+  <line x1="1125" y1="0" x2="1125" y2="500" stroke="#1a1a3a" stroke-width="0.8"/>
+
+  <!-- Stars / particles -->
+  <circle cx="80" cy="40" r="2" fill="#f0d060" opacity="0.7"/>
+  <circle cx="200" cy="80" r="1.5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="350" cy="30" r="2" fill="#f0d060" opacity="0.5"/>
+  <circle cx="500" cy="60" r="1.5" fill="#ffffff" opacity="0.3"/>
+  <circle cx="680" cy="25" r="2" fill="#f0d060" opacity="0.6"/>
+  <circle cx="900" cy="50" r="1.5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="1050" cy="35" r="2" fill="#f0d060" opacity="0.5"/>
+  <circle cx="1200" cy="70" r="1.5" fill="#ffffff" opacity="0.3"/>
+  <circle cx="1380" cy="40" r="2" fill="#f0d060" opacity="0.6"/>
+  <circle cx="1460" cy="90" r="1.5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="60" cy="200" r="1.5" fill="#f0d060" opacity="0.4"/>
+  <circle cx="140" cy="380" r="2" fill="#ffffff" opacity="0.3"/>
+  <circle cx="280" cy="440" r="1.5" fill="#f0d060" opacity="0.5"/>
+  <circle cx="1300" cy="420" r="2" fill="#f0d060" opacity="0.6"/>
+  <circle cx="1420" cy="380" r="1.5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="1480" cy="300" r="2" fill="#f0d060" opacity="0.5"/>
+  <circle cx="55" cy="460" r="1.5" fill="#ffffff" opacity="0.3"/>
+  <circle cx="420" cy="470" r="2" fill="#f0d060" opacity="0.4"/>
+  <circle cx="1100" cy="460" r="1.5" fill="#ffffff" opacity="0.3"/>
+
+  <!-- Hex decorations left -->
+  <polygon points="80,140 120,117 160,140 160,186 120,209 80,186" fill="none" stroke="#2a2a5a" stroke-width="1.2"/>
+  <polygon points="30,260 65,241 100,260 100,298 65,317 30,298" fill="none" stroke="#1e1e4a" stroke-width="0.8"/>
+  <polygon points="110,350 140,333 170,350 170,384 140,401 110,384" fill="none" stroke="#2a2a5a" stroke-width="0.8"/>
+  <polygon points="200,60 230,43 260,60 260,94 230,111 200,94" fill="none" stroke="#1e1e4a" stroke-width="0.6"/>
+
+  <!-- Hex decorations right -->
+  <polygon points="1310,100 1360,71 1410,100 1410,158 1360,187 1310,158" fill="none" stroke="#2a2a5a" stroke-width="1.2"/>
+  <polygon points="1380,260 1420,237 1460,260 1460,306 1420,329 1380,306" fill="none" stroke="#1e1e4a" stroke-width="0.8"/>
+  <polygon points="1280,370 1310,353 1340,370 1340,404 1310,421 1280,404" fill="none" stroke="#2a2a5a" stroke-width="0.8"/>
+  <polygon points="1200,50 1230,33 1260,50 1260,84 1230,101 1200,84" fill="none" stroke="#1e1e4a" stroke-width="0.6"/>
+
+  <!-- Mid hex decorations -->
+  <polygon points="480,380 510,363 540,380 540,414 510,431 480,414" fill="none" stroke="#1e1e4a" stroke-width="0.6"/>
+  <polygon points="960,380 990,363 1020,380 1020,414 990,431 960,414" fill="none" stroke="#1e1e4a" stroke-width="0.6"/>
+
+  <!-- Gold accent bars -->
+  <rect x="0" y="0" width="1500" height="4" fill="#c8942a"/>
+  <rect x="0" y="496" width="1500" height="4" fill="#c8942a"/>
+
+  <!-- Vertical gold accents -->
+  <rect x="0" y="0" width="4" height="500" fill="#c8942a" opacity="0.4"/>
+  <rect x="1496" y="0" width="4" height="500" fill="#c8942a" opacity="0.4"/>
+
+  <!-- Coin glow -->
+  <circle cx="750" cy="250" r="230" fill="#c8a84b" opacity="0.05"/>
+  <circle cx="750" cy="250" r="190" fill="#c8a84b" opacity="0.06"/>
+
+  <!-- Coin outer ring -->
+  <circle cx="750" cy="250" r="175" fill="#e8c55a"/>
+  <circle cx="750" cy="250" r="163" fill="#d4a832"/>
+  <circle cx="750" cy="250" r="152" fill="#f0d060"/>
+
+  <!-- Inner rings -->
+  <circle cx="750" cy="250" r="142" fill="none" stroke="#c8942a" stroke-width="2"/>
+  <circle cx="750" cy="250" r="130" fill="none" stroke="#c8942a" stroke-width="0.8"/>
+
+  <!-- Hexagon on coin -->
+  <polygon points="750,128 854,188 854,312 750,372 646,312 646,188" fill="#e8c040" stroke="#c8942a" stroke-width="1.2"/>
+
+  <!-- NUX on coin -->
+  <text x="698" y="284" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#8a6010" text-anchor="middle">N</text>
+  <text x="750" y="284" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#7a5008" text-anchor="middle">U</text>
+  <text x="802" y="284" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#8a6010" text-anchor="middle">X</text>
+
+  <!-- QUANTUM on coin -->
+  <text x="750" y="172" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#9a7020" text-anchor="middle" letter-spacing="5">QUANTUM</text>
+
+  <!-- Coin dots bottom -->
+  <circle cx="728" cy="338" r="3" fill="#c8942a"/>
+  <circle cx="750" cy="344" r="3" fill="#c8942a"/>
+  <circle cx="772" cy="338" r="3" fill="#c8942a"/>
+
+  <!-- Left side text -->
+  <text x="160" y="210" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#f0d060" letter-spacing="2">NUX</text>
+  <text x="160" y="288" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#f0d060" letter-spacing="2">COIN</text>
+  <rect x="160" y="304" width="200" height="3" fill="#c8942a"/>
+  <text x="160" y="338" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#a09060" letter-spacing="4">QUANTUM FINANCE</text>
+
+  <!-- Right side text -->
+  <text x="1340" y="210" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#706040" text-anchor="end" letter-spacing="2">DECENTRALIZED</text>
+  <text x="1340" y="240" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#706040" text-anchor="end" letter-spacing="2">AUTONOMOUS</text>
+  <text x="1340" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#706040" text-anchor="end" letter-spacing="2">ORGANIZATION</text>
+  <rect x="1160" y="284" width="180" height="1.5" fill="#2a2a5a"/>
+  <text x="1340" y="316" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#504838" text-anchor="end" letter-spacing="2">@nuxcoin</text>
+
+  <!-- Bottom center tagline -->
+  <text x="750" y="472" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#403828" text-anchor="middle" letter-spacing="6">THE FUTURE OF QUANTUM FINANCE</text>
+
+  <!-- Corner marks top-left -->
+  <path d="M20,20 L60,20 L60,24 L24,24 L24,60 L20,60 Z" fill="#c8942a" opacity="0.7"/>
+  <!-- Corner marks top-right -->
+  <path d="M1480,20 L1440,20 L1440,24 L1476,24 L1476,60 L1480,60 Z" fill="#c8942a" opacity="0.7"/>
+  <!-- Corner marks bottom-left -->
+  <path d="M20,480 L60,480 L60,476 L24,476 L24,440 L20,440 Z" fill="#c8942a" opacity="0.7"/>
+  <!-- Corner marks bottom-right -->
+  <path d="M1480,480 L1440,480 L1440,476 L1476,476 L1476,440 L1480,440 Z" fill="#c8942a" opacity="0.7"/>
+
+</svg>

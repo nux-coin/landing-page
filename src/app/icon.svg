@@ -1,0 +1,37 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer glow ring -->
+  <circle cx="200" cy="200" r="188" fill="#c8a84b" opacity="0.18"/>
+
+  <!-- Outer ring -->
+  <circle cx="200" cy="200" r="178" fill="#e8c55a"/>
+
+  <!-- Ring border inner -->
+  <circle cx="200" cy="200" r="168" fill="#d4a832"/>
+
+  <!-- Coin body -->
+  <circle cx="200" cy="200" r="158" fill="#f0d060"/>
+
+  <!-- Inner ring decoration -->
+  <circle cx="200" cy="200" r="148" fill="none" stroke="#c8942a" stroke-width="1.5"/>
+  <circle cx="200" cy="200" r="138" fill="none" stroke="#c8942a" stroke-width="0.5"/>
+
+  <!-- Hexagon background shape -->
+  <polygon points="200,102 278,148 278,252 200,298 122,252 122,148" fill="#e8c040" stroke="#c8942a" stroke-width="1"/>
+
+  <!-- N letter -->
+  <text x="142" y="228" font-family="Arial, sans-serif" font-size="78" font-weight="600" fill="#8a6010" text-anchor="middle">N</text>
+
+  <!-- U letter -->
+  <text x="200" y="228" font-family="Arial, sans-serif" font-size="78" font-weight="600" fill="#7a5008" text-anchor="middle">U</text>
+
+  <!-- X letter -->
+  <text x="258" y="228" font-family="Arial, sans-serif" font-size="78" font-weight="600" fill="#8a6010" text-anchor="middle">X</text>
+
+  <!-- Bottom arc dots -->
+  <circle cx="178" cy="292" r="2.5" fill="#c8942a"/>
+  <circle cx="200" cy="298" r="2.5" fill="#c8942a"/>
+  <circle cx="222" cy="292" r="2.5" fill="#c8942a"/>
+
+  <!-- Top tiny label -->
+  <text x="200" y="148" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#9a7020" text-anchor="middle" letter-spacing="4">QUANTUM</text>
+</svg>
